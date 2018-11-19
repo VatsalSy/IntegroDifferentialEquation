@@ -1,2 +1,2 @@
 # IntegroDifferentialEquation
-<embed width="100%" src="http://docs.google.com/viewer?url=https://raw.githubusercontent.com/VatsalSy/IntegroDifferentialEquation/master/Documentation.pdf&embedded=true" frameborder="0" allowfullscreen"></embed>
+<iframe src="https://www.wolframcloud.com/objects/vatsalsanjay/Published/IntegroDifferential.nb?_embed=iframe" width="600" height="800"></iframe>
