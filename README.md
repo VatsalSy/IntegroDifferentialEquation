@@ -1,2 +1,2 @@
 # IntegroDifferentialEquation
-@[pdf](Documentation.pdf)
+[Documentation](Documentation.pdf)
