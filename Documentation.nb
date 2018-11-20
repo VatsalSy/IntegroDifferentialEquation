@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    634007,      11363]
-NotebookOptionsPosition[    630351,      11293]
-NotebookOutlinePosition[    630763,      11311]
-CellTagsIndexPosition[    630720,      11308]
+NotebookDataLength[    635266,      11399]
+NotebookOptionsPosition[    631607,      11329]
+NotebookOutlinePosition[    632019,      11347]
+CellTagsIndexPosition[    631976,      11344]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -116,6 +116,17 @@ Cell[TextData[{
  " to solve this integro-differential equation. ",
  StyleBox["Case1.m ",
   FontWeight->"Bold"],
+ StyleBox[ButtonBox["(see raw)",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://raw.githubusercontent.com/VatsalSy/\
+IntegroDifferentialEquation/master/Case1.m"], None},
+  ButtonNote->
+   "https://raw.githubusercontent.com/VatsalSy/IntegroDifferentialEquation/\
+master/Case1.m"],
+  FontWeight->"Bold"],
+ StyleBox[" ",
+  FontWeight->"Bold"],
  "contains the relevant codes for this. The idea is: \n1.Find an initial \
 guess of the solution. To do this, drop the integral part of the equation and \
 solve. \n2. Use the guess value from the first step to evaluate the integral \
@@ -125,8 +136,9 @@ solution. "
  CellChangeTimes->{{3.75164178952188*^9, 3.751641905871656*^9}, 
    3.751642006111247*^9, {3.751642410072282*^9, 3.7516427314887857`*^9}, {
    3.751642789551083*^9, 3.751642814458433*^9}, {3.751642859794011*^9, 
-   3.751642952461028*^9}, {3.751644123261795*^9, 
-   3.751644129778501*^9}},ExpressionUUID->"7137a1bd-69e5-42ce-8cb6-\
+   3.751642952461028*^9}, {3.751644123261795*^9, 3.751644129778501*^9}, {
+   3.751697527315178*^9, 3.751697535173687*^9}, {3.751697591897882*^9, 
+   3.75169759190172*^9}},ExpressionUUID->"7137a1bd-69e5-42ce-8cb6-\
 1afb7e389451"],
 
 Cell[BoxData[{
@@ -4122,10 +4134,22 @@ fdfb55fb0af7"],
 Cell[TextData[{
  StyleBox["Case2.m ",
   FontWeight->"Bold"],
+ StyleBox[ButtonBox["(see raw)",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://raw.githubusercontent.com/VatsalSy/\
+IntegroDifferentialEquation/master/Case2.m"], None},
+  ButtonNote->
+   "https://raw.githubusercontent.com/VatsalSy/IntegroDifferentialEquation/\
+master/Case2.m"],
+  FontWeight->"Bold"],
+ StyleBox[" ",
+  FontWeight->"Bold"],
  "contains the relevant codes for this. "
 }], "Text",
- CellChangeTimes->{{3.751643143852438*^9, 
-  3.751643146681754*^9}},ExpressionUUID->"17f843ae-9b01-4724-9358-\
+ CellChangeTimes->{{3.751643143852438*^9, 3.751643146681754*^9}, {
+  3.751697615644228*^9, 
+  3.7516976480590773`*^9}},ExpressionUUID->"17f843ae-9b01-4724-9358-\
 46b79e2f7169"],
 
 Cell[BoxData[{
@@ -7862,10 +7886,22 @@ Cell["Numerical Solution using MATLAB", "Subsection",
 Cell[TextData[{
  StyleBox["Case3.m ",
   FontWeight->"Bold"],
+ StyleBox[ButtonBox["(see raw)",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://raw.githubusercontent.com/VatsalSy/\
+IntegroDifferentialEquation/master/Case3.m"], None},
+  ButtonNote->
+   "https://raw.githubusercontent.com/VatsalSy/IntegroDifferentialEquation/\
+master/Case3.m"],
+  FontWeight->"Bold"],
+ StyleBox[" ",
+  FontWeight->"Bold"],
  "contains the relevant codes for this. "
 }], "Text",
- CellChangeTimes->{{3.751643143852438*^9, 
-  3.7516431622827463`*^9}},ExpressionUUID->"c16c3af9-2569-4bb3-bd64-\
+ CellChangeTimes->{{3.751643143852438*^9, 3.7516431622827463`*^9}, {
+  3.7516976532151937`*^9, 
+  3.751697670098714*^9}},ExpressionUUID->"c16c3af9-2569-4bb3-bd64-\
 fdea13dab0ba"],
 
 Cell[BoxData[{
@@ -11323,45 +11359,45 @@ Cell[2883, 92, 351, 8, 34, "Output",ExpressionUUID->"5e5b3fc2-7396-4868-b306-d0c
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[3283, 106, 183, 3, 54, "Subsection",ExpressionUUID->"9990a0bb-0a4f-422d-b4b9-854c2dd38138"],
-Cell[3469, 111, 904, 18, 81, "Text",ExpressionUUID->"7137a1bd-69e5-42ce-8cb6-1afb7e389451"],
-Cell[4376, 131, 15274, 493, 1478, "Code",ExpressionUUID->"b24802c7-66e7-45d8-a888-a5dfa6968b83"],
-Cell[19653, 626, 206365, 3390, 844, 142267, 2339, "CachedBoxData", "BoxData", "Input",ExpressionUUID->"21f57327-7acf-40ec-a29a-2001b3016632"],
-Cell[226021, 4018, 130, 3, 30, "Input",ExpressionUUID->"4c1dc611-d74c-41e0-8006-cbb1bfa2e113"]
+Cell[3469, 111, 1352, 30, 81, "Text",ExpressionUUID->"7137a1bd-69e5-42ce-8cb6-1afb7e389451"],
+Cell[4824, 143, 15274, 493, 1478, "Code",ExpressionUUID->"b24802c7-66e7-45d8-a888-a5dfa6968b83"],
+Cell[20101, 638, 206365, 3390, 844, 142267, 2339, "CachedBoxData", "BoxData", "Input",ExpressionUUID->"21f57327-7acf-40ec-a29a-2001b3016632"],
+Cell[226469, 4030, 130, 3, 30, "Input",ExpressionUUID->"4c1dc611-d74c-41e0-8006-cbb1bfa2e113"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[226200, 4027, 676, 21, 72, "Section",ExpressionUUID->"d30d54d9-8827-4430-9647-6d8e3650d121"],
+Cell[226648, 4039, 676, 21, 72, "Section",ExpressionUUID->"d30d54d9-8827-4430-9647-6d8e3650d121"],
 Cell[CellGroupData[{
-Cell[226901, 4052, 143, 3, 54, "Subsection",ExpressionUUID->"0827a83c-79be-4136-b468-b369b30b9a3f"],
+Cell[227349, 4064, 143, 3, 54, "Subsection",ExpressionUUID->"0827a83c-79be-4136-b468-b369b30b9a3f"],
 Cell[CellGroupData[{
-Cell[227069, 4059, 1018, 25, 45, "Input",ExpressionUUID->"31d3f4fe-a278-4f11-ba45-8e8fdb7105f6"],
-Cell[228090, 4086, 827, 24, 58, "Output",ExpressionUUID->"e7f5f1d4-4b85-42ca-b1cb-da8bb01d9c55"]
+Cell[227517, 4071, 1018, 25, 45, "Input",ExpressionUUID->"31d3f4fe-a278-4f11-ba45-8e8fdb7105f6"],
+Cell[228538, 4098, 827, 24, 58, "Output",ExpressionUUID->"e7f5f1d4-4b85-42ca-b1cb-da8bb01d9c55"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[228966, 4116, 179, 3, 54, "Subsection",ExpressionUUID->"bb4c42e2-957a-47a8-a8ae-fdfb55fb0af7"],
-Cell[229148, 4121, 240, 7, 35, "Text",ExpressionUUID->"17f843ae-9b01-4724-9358-46b79e2f7169"],
-Cell[229391, 4130, 15866, 515, 1478, "Code",ExpressionUUID->"783d754d-4d8f-42cf-8927-66ad326f6fec"],
-Cell[245260, 4647, 189753, 3118, 844, 131702, 2166, "CachedBoxData", "BoxData", "Input",ExpressionUUID->"4d941bb8-e1ae-41a0-82a1-5271750bd0b9"],
-Cell[435016, 7767, 125, 2, 30, "Input",ExpressionUUID->"ee33f586-d892-4f3f-b8e5-8f326081819d"]
+Cell[229414, 4128, 179, 3, 54, "Subsection",ExpressionUUID->"bb4c42e2-957a-47a8-a8ae-fdfb55fb0af7"],
+Cell[229596, 4133, 644, 19, 35, "Text",ExpressionUUID->"17f843ae-9b01-4724-9358-46b79e2f7169"],
+Cell[230243, 4154, 15866, 515, 1478, "Code",ExpressionUUID->"783d754d-4d8f-42cf-8927-66ad326f6fec"],
+Cell[246112, 4671, 189753, 3118, 844, 131702, 2166, "CachedBoxData", "BoxData", "Input",ExpressionUUID->"4d941bb8-e1ae-41a0-82a1-5271750bd0b9"],
+Cell[435868, 7791, 125, 2, 30, "Input",ExpressionUUID->"ee33f586-d892-4f3f-b8e5-8f326081819d"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[435190, 7775, 732, 22, 64, "Section",ExpressionUUID->"b5267fc4-1fc5-4755-aaa9-be4ab1861de8"],
+Cell[436042, 7799, 732, 22, 64, "Section",ExpressionUUID->"b5267fc4-1fc5-4755-aaa9-be4ab1861de8"],
 Cell[CellGroupData[{
-Cell[435947, 7801, 761, 19, 45, "Input",ExpressionUUID->"88442450-1263-495b-a7c2-98a3720adf90"],
-Cell[436711, 7822, 230, 4, 34, "Output",ExpressionUUID->"0d7144c3-a61e-4c8b-af62-1db8219cb282"]
+Cell[436799, 7825, 761, 19, 45, "Input",ExpressionUUID->"88442450-1263-495b-a7c2-98a3720adf90"],
+Cell[437563, 7846, 230, 4, 34, "Output",ExpressionUUID->"0d7144c3-a61e-4c8b-af62-1db8219cb282"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[436978, 7831, 624, 15, 30, "Input",ExpressionUUID->"373b1be8-8180-4787-b410-fb9c4e653304"],
-Cell[437605, 7848, 202, 3, 34, "Output",ExpressionUUID->"913d575e-cd51-4b41-b749-2c864e4d46fd"]
+Cell[437830, 7855, 624, 15, 30, "Input",ExpressionUUID->"373b1be8-8180-4787-b410-fb9c4e653304"],
+Cell[438457, 7872, 202, 3, 34, "Output",ExpressionUUID->"913d575e-cd51-4b41-b749-2c864e4d46fd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[437844, 7856, 179, 3, 54, "Subsection",ExpressionUUID->"1d084815-4f7f-46b6-873f-6da0b4efb683"],
-Cell[438026, 7861, 242, 7, 35, "Text",ExpressionUUID->"c16c3af9-2569-4bb3-bd64-fdea13dab0ba"],
-Cell[438271, 7870, 15804, 517, 1516, "Code",ExpressionUUID->"aa07ba50-cbf5-4604-94d4-81428923e2b2"],
-Cell[454078, 8389, 176102, 2894, 844, 121426, 1997, "CachedBoxData", "BoxData", "Input",ExpressionUUID->"956ca9dc-ff30-4979-aabe-34fd11f725e3"],
-Cell[630183, 11285, 128, 3, 30, "Input",ExpressionUUID->"a56a753b-c3f6-4d25-a7fc-872b0468457a"]
+Cell[438696, 7880, 179, 3, 54, "Subsection",ExpressionUUID->"1d084815-4f7f-46b6-873f-6da0b4efb683"],
+Cell[438878, 7885, 646, 19, 35, "Text",ExpressionUUID->"c16c3af9-2569-4bb3-bd64-fdea13dab0ba"],
+Cell[439527, 7906, 15804, 517, 1516, "Code",ExpressionUUID->"aa07ba50-cbf5-4604-94d4-81428923e2b2"],
+Cell[455334, 8425, 176102, 2894, 844, 121426, 1997, "CachedBoxData", "BoxData", "Input",ExpressionUUID->"956ca9dc-ff30-4979-aabe-34fd11f725e3"],
+Cell[631439, 11321, 128, 3, 30, "Input",ExpressionUUID->"a56a753b-c3f6-4d25-a7fc-872b0468457a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
