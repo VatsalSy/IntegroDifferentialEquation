@@ -1,4 +1,7 @@
 # IntegroDifferentialEquation
+
+This repository has moved to [comphy-lab/Integro-Differential-Equation](https://github.com/comphy-lab/Integro-Differential-Equation).
+
 [Documentation](Documentation.pdf)
 
 Case 1: [Raw Matlab file](https://raw.githubusercontent.com/VatsalSy/IntegroDifferentialEquation/master/Case1.m)
